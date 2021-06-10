@@ -23,7 +23,7 @@ export default class Home extends Component {
                         media={"../components/Menu"}
                     />
                     <HomeTop
-                        title={"../components/Feedback"}
+                        title={top.title}
                         content={top.content}
                         img={top.img}
                     />
